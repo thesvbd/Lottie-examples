@@ -25,8 +25,8 @@
 							<ul>
 								<li><a href="#top" id="how-to-start"><span class="icon solid fa-home">Intro</span></a></li>
 								<li><a href="#loop" id="portfolio-link"><span class="icon solid fa-th">Play in loop</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+								<li><a href="#play-on-click" id="about-link"><span class="icon solid fa-th">Play on click</span></a></li>
+								<li><a href="#play-back-on-second-click" id="contact-link"><span class="icon solid fa-th">Play back on second click</span></a></li>
 							</ul>
 						</nav>
 
@@ -38,9 +38,6 @@
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
 				</div>
@@ -79,53 +76,78 @@
 						<div class="container">
 
 							<header>
-								<h2>Basic animation</h2>
+								<h2>Play in loop</h2>
 							</header>
 
-							<p>For infinite loop let the animation "true". For one cyclus of animation rewrite it to "false".</p>
+							<p>For infinite loop let in the .JS set "loop: true". For one cyclus of animation set "loop: false"./p>
                             
-                            <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+                            <p class="codepen" data-height="450" data-theme-id="0" data-default-tab="js,result" data-user="useAnimations" data-slug-hash="PvrdaP" style="height: 450px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Lottie animation in loop">
+  <span>See the Pen <a href="https://codepen.io/useAnimations/pen/PvrdaP/">
+  Lottie animation in loop</a> by useAnimations (<a href="https://codepen.io/useAnimations">@useAnimations</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 						</div>
 					</section>
 
-				<!-- Contact -->
-					<section id="contact" class="four">
+				<!-- play on click -->
+					<section id="play-on-click" class="four">
 						<div class="container">
 
 							<header>
-								<h2>Contact</h2>
+								<h2>Play on click</h2>
 							</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
+							<p>Play an animation on each click.<br>
+                            <br>
+                            playSegments(segments, forceFlag)<br>
+                            <br>
+                            Segments: array. Can contain 2 numeric values that will be used as first and last frame of the animation. Or can contain a sequence of arrays each with 2 numeric values.<br>
+                            <br>
+                            ForceFlag: boolean. If set to false, it will wait until the current segment is complete. If true, it will update values immediately.<br>
+                            <br></p>
+                            
+                            <p class="codepen" data-height="450" data-theme-id="0" data-default-tab="js,result" data-user="useAnimations" data-slug-hash="VOJEEm" style="height: 450px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Lottie play on click">
+  <span>See the Pen <a href="https://codepen.io/useAnimations/pen/VOJEEm/">
+  Lottie play on click</a> by useAnimations (<a href="https://codepen.io/useAnimations">@useAnimations</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 						</div>
 					</section>
 
-			</div>
+                <!-- play on click and back -->
+                    <section id="play-back-on-second-click" class="four">
+                        <div class="container">
 
+                            <header>
+                                <h2>Play back on second click</h2>
+                            </header>
+
+                            <p></p>
+                            
+                            <p class="codepen" data-height="450" data-theme-id="0" data-default-tab="js,result" data-user="useAnimations" data-slug-hash="argQEp" style="height: 450px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Lottie play back on second click">
+  <span>See the Pen <a href="https://codepen.io/useAnimations/pen/argQEp/">
+  Lottie play back on second click</a> by useAnimations (<a href="https://codepen.io/useAnimations">@useAnimations</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+                        </div>
+                    </section>
+                
+                </div>
+
+		<!-- Footer -->
+        
 		<!-- Footer -->
 			<div id="footer">
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li><a href="https://useanimations.com">useAnimations.com</a></li>
 					</ul>
 
 			</div>

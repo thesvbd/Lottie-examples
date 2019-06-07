@@ -85,7 +85,7 @@ input, select, textarea {
 	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -104,7 +104,7 @@ input, select, textarea {
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: 10pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -126,7 +126,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 1.5em;
 		letter-spacing: -1px;
 	}
 
@@ -139,7 +139,7 @@ input, select, textarea {
 			}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.m;
 	}
 
 	header {
@@ -182,13 +182,13 @@ input, select, textarea {
 	sub {
 		position: relative;
 		top: 0.5em;
-		font-size: 0.8em;
+		font-size: 0.5em;
 	}
 
 	sup {
 		position: relative;
 		top: -0.5em;
-		font-size: 0.8em;
+		font-size: 0.5em;
 	}
 
 	hr {
@@ -2582,11 +2582,11 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 14pt;
+				font-size: 10pt;
 			}
 
 			h2 {
-				font-size: 1.5em;
+				font-size: 1em;
 				letter-spacing: 0;
 				font-weight: 300;
 			}
